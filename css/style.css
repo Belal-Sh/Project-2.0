@@ -592,3 +592,154 @@ header .header-content {
   color: #888;
   text-decoration: line-through;
 }
+
+/* final-section */
+.final-section {
+  display: grid;
+  grid-template-columns: 34% 64%;
+  grid-gap: 2%;
+  margin: 100px 0 50px;
+}
+
+.video-image {
+  position: relative;
+}
+
+.video-image>img {
+  width: 100%;
+  height: 100%;
+}
+
+.video-image .video-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+}
+
+.video-info {
+  padding: 40px 40px 0;
+  background-color: #f7f3ef;
+}
+
+.info-top {
+  display: flex;
+}
+
+.info-date {
+  flex: 1;
+}
+
+.info-date h4 {
+  font-size: 40px;
+  color: var(--mainColor);
+  font-weight: bold;
+}
+
+.info-date span {
+  font-size: 14px;
+  color: var(--mainColor);
+}
+
+.info-header {
+  flex: 6;
+}
+
+.info-header h3 {
+  font-size: 16px;
+  padding-top: 10px
+}
+
+.info-desc {
+  font-size: 14px;
+  color: #888;
+  line-height: 2;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px
+}
+
+.clients-list li {
+  opacity: 0.75;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  padding: 60px 0;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 35% 15% 15% 25%;
+  justify-content: space-between;
+}
+
+.first-column,
+.fourth-column,
+.second-column, {
+  margin-top: 20px;
+}
+
+.first-column p {
+  color: #888;
+  margin: 40px 0;
+  line-height: 2;
+  font-size: 14px;
+}
+
+.second-column h4 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.second-column ul {
+  line-height: 2.5
+}
+
+.second-column ul li {
+  color: #888;
+  font-size: 14px;
+}
+
+.fourth-column h4 {
+  color: #fff;
+}
+
+.subscribe {
+  margin: 70px 0 60px;
+  border-bottom: 1px solid #888;
+  position: relative;
+}
+
+.subscribe input {
+  background: none;
+  border: none;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.subscribe button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  right: 0;
+}
+
+.social-list {
+  display: flex;
+  padding-left: 10px;
+  /* justify-content: space-between; */
+}
+
+.social-list li i {
+  color: #888;
+  padding-right: 20px;
+}
